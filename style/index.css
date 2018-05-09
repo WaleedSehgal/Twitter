@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main{
+	position:relative;
+	top:0px;
+	width:20px;
+	}
+	
+#indexHead{
+	width:1368px;
+	height:43px;
+	position:relative;
+	top:-8px;
+	left:-8px;
+	}
+	
+#tweety{
+	position:relative;
+	top:-82px;
+	left:245px;
+	}
+	
+#login{
+	position:relative;
+	top:-172px;
+	left:800px;
+	width:280px;
+	height:110px;
+	border:#333;
+	background-color:#FFF;
+	border-radius:5px;
+	}
+
+#user{
+	position:relative;
+	Top:-5px;
+	left:8px;
+	width:260px;
+	height:25px;
+	border-radius:3px;
+	border-color:#CCC;
+	border-width:thin;
+	font-size:17px;
+	}
+	
+#pass{
+	position:relative;
+	Top:5px;
+	left:8px;
+	width:200px;
+	height:25px;
+	border-radius:5px;
+	border-color:#CCC;
+	border-width:thin;
+	font-size:17px;
+	}
+	
+#signin{
+	position:relative;
+	width:60px;
+	height:25px;
+	top:-25px;
+	left:213px;
+	border-radius:5px;
+	border-color:#CCC;
+	border-width:thin;
+	background-color:#22B0E5;
+	}
+	
+#checkbox{
+	position:relative;
+    left:-62px;
+    top:6px;
+	border:1px #2291FF;
+	border-radius:5px;
+	background-color:#D7D7D7;
+    width:35px;
+	height:25px;
+	}
+	
+#remember{
+	position:relative;
+    left:33px;
+    top:-24px;
+	}
+	
+#registration{
+	position:relative;
+	width:283px;
+	height:205px;
+	top:-150px;
+	left:798px;
+	border-radius:5px;
+	border-color:#CCC;
+	border-width:thin;
+	background-color:#FFF;
+}
+
+#label1{
+    position:relative;
+	Top:10px;
+	left:8px;
+	width:260px;
+	height:25px;
+	border-radius:3px;
+	border-color:#CCC;
+	border-width:thin;
+	font-size:17px;	
+
+	}
+
+#label2{
+    position:relative;
+	Top:20px;
+	left:8px;
+	width:260px;
+	height:25px;
+	border-radius:3px;
+	border-color:#CCC;
+	border-width:thin;
+	font-size:17px;	
+}
+
+#label3{
+    position:relative;
+	Top:30px;
+	left:8px;
+	width:260px;
+	height:23px;
+	border-radius:3px;
+	border-color:#CCC;
+	border-width:thin;
+	font-size:17px;	
+}
+
+#signup_btn{
+	position:relative;
+	Top:38px;
+	left:125px;
+	width:150px;
+	height:30px;
+	border-radius:3px;
+	border-color:#CCC;
+	border-width:thin;
+	background-color:#FEB021;
+	}
+	
+#mobile_app{
+	position:relative;
+	Top:-280px;
+	left:-550px;
+	width:527px;
+	height:337px;
+	border-radius:3px;
+	background-image:url(../Images/twitter_mobile.png);
+}
+
+#iphone_badge{
+	
+	position:relative;
+	top:-340px;
+	left:-528px;
+	background-image:url(../Icons/app%20store%20badge.png);
+	width:135px;
+	height:40px;
+	
+	}
+	
+#android_badge{
+	
+	position:relative;
+	top:-338px;
+	left:-525px;
+	background-image:url(../Icons/google-play-badge.png);
+	width:140px;
+	height:45px;
+	}

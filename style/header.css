@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+#head{
+
+	width:1368px;
+	height:43px;
+	position:relative;
+	top:-8px;
+	left:-8px;
+		
+}
+
+#myinfo{
+position:relative;
+	top:20px;
+	left:18px;
+}

@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+#top_bar{
+	position:relative;
+	background-image:url(../Images/strip3.png);
+	top:-10px;
+	left:-5px;
+	width:1496px;
+	height:33px;
+	}
+
+#user{
+	position:relative;
+	top:35px;
+	left:20px;
+	}
+
+#steps{
+	Position:relative;
+	top:50px;
+	left:40px;
+	
+	}
+
+#about_tag{
+	position:relative;
+	top:10px;
+	left:-10px;
+	}
+	
+#about{
+	position:relative;
+	top:50px;
+	left:500px;
+	height:200px;
+	width:400px;
+	}

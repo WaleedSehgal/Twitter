@@ -1,0 +1,72 @@
+#step_bar{
+	display:block;
+	background-color:#eceef4;
+	height:51px;
+	width:625px;
+	margin:50px auto 0px auto;
+	text-align:left;
+	clear:both;
+}
+
+#step_bar div
+{
+	display:inline-block;
+	float:left;
+	height:51px;
+}
+
+#step_bar ol li{
+	list-style:none;
+	display:inline-block;
+}
+
+#step_bar #curr_mid{
+	width:114px;
+	background-image:url(../images/step_bar/1_mid_curr.gif);
+	background-repeat:repeat;
+}
+
+#step_bar #light_mid{
+	width:114px;
+	background-color:#eceff5;
+}
+
+#step_content{
+	height:31px;
+	margin:11px 10px 0px 15px;
+	text-align:left;
+}
+
+#step_curr_num{
+	height:16.5px;
+	width:90.5px;
+	margin-bottom:1px;
+	display:block;
+	color:white;
+	font-size:13px;
+	font-weight:bold;	
+}
+
+#step_curr_name{
+	color:white;
+	display:inline;
+	font-size:11px;
+	font-weight:normal;	
+}
+
+#step_light_num{
+	height:16.5px;
+	width:90.5px;
+	margin-bottom:1px;
+	display:block;
+	color:#333;
+	font-size:13px;
+	font-weight:bold;	
+}
+
+#step_light_name{
+	color:#333;
+	display:inline;
+	font-size:11px;
+	font-weight:normal;	
+}

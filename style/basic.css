@@ -1,0 +1,53 @@
+*{	
+	margin: 0px;
+	padding: 0px;
+}
+
+header, footer, nav, section, article, aside, hgroup{
+	display:block;		/* For older browsers */
+}
+
+body{
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif; 
+	font-size:11px;
+	color: #333333;
+	text-align:left;
+}
+
+a{
+	color: #3b5998;
+	outline-style: none;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+section a{
+	font-weight: normal;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+hr{
+	color:#737373;
+	border-bottom:1px solid #CCC;
+}
+
+
+/*	COLOR SCHEME
+#0e1f5b	
+#3b5998		Header, Links
+#7f93bc		Line between “Facebook” and “Search”
+#95a5c6	
+#bdc7d8	
+#c3cddf	
+#d8dfea	
+#eceff5		Comments and likes background
+#cccccc		Misc. borders/lines around facebook
+#f7f7f7		Background of left nav, inactive tabs, canvas backgrounds on eg. Photos app
+#dd3c10		Error box border
+#ffebe8		Error box background
+#e2c822		Attention box border
+#fff9d7		Attention box background
+*/
