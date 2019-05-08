@@ -36,14 +36,9 @@ CREATE TABLE IF NOT EXISTS `about` (
 --
 
 INSERT INTO `about` (`userId`, `about`) VALUES
-(0, 'ddsd'),
-(0, 'erwer'),
-(0, 'ewe'),
-(0, 'dfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'),
-(0, ''),
-(0, ''),
-(0, 'xdxfxdfxcvxcvcxvxvx'),
-(0, 'sadasdasdasdasd');
+(0, 'xyz'),
+(0, 'abc'),
+(0, 'ghi');
 
 -- --------------------------------------------------------
 
@@ -77,20 +72,9 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`userId`, `fullname`, `email`, `password`) VALUES
-(1, 'waleed', 'waleed@gmail.com', 'hello'),
-(2, 'husnain', 'husnainsehgal@gmail.com', 'husni'),
-(3, 'some', 'somebody@gmail.com', 'hello'),
-(4, 'muneeb', 'khan@gmail.com', 'hello'),
-(5, 'usama', 'usama@gmail.com', 'hi'),
-(6, 'usman', 'usman@gmail.com', 'hello'),
-(7, 'salman', 'salman@gmail.com', 'hi'),
-(8, 'waleed', 'aaa@gmail.com', 'ccccccc'),
-(9, 'shabuk', 'sain@gmail.com', 'hello'),
-(10, 'awais', 'awais@gmail.com', 'hello'),
-(11, 'shoaib', 'shoaib@gmail.com', 'hello'),
-(12, 'hiii', 'hiii@gmail.com', 'hi'),
-(13, 'sallo', 'sallo@gmail.com', 'hello'),
-(14, 'ishaq', 'aaaa@gmail.com', 'helloo');
+(1, 'abc', 'abc@gmail.com', 'hello'),
+(2, 'xyz', 'xyz@gmail.com', 'husni'),
+(3, 'somebody', 'somebody@gmail.com', 'hello');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
