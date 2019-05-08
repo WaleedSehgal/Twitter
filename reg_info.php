@@ -13,19 +13,13 @@ if($record){
 		if($user){		
 			header("location:../emailInUse.php");
 		}
-		else {
-
-			
-	
+		else {	
 			$query = "INSERT INTO About (about)
 				VALUES ('$_POST[about]')";
 			
 			mysql_query($query,$con);
 			
 			$_SESSION['about'] = $_POST['about'];	
-			
-		
-			
 		
 			mysql_close($con);	
 			header("location:reg_profilePic.php");	
@@ -33,6 +27,5 @@ if($record){
 		}
 	}
 	mysql_close($con);	
-
 
 ?>
